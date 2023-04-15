@@ -1,7 +1,9 @@
 
+
 data/
 segment/
-models/
+models/*
+!models/common.py
 runs/
 export.py
 train.py
