@@ -239,9 +239,7 @@ def update_image():
 
     thread.start()
 
-    time.sleep(2)
     # Threading
-    time.sleep(2)
 
     x,y,z= 0,0,0
     my_data = [0]
@@ -259,6 +257,11 @@ def update_image():
         #     break
 
         frame = yolo_frame.image
+
+        if frame is None:
+            time.sleep(5)
+            print("Waiting for Yolo...")
+            continue
 
         frame, val, conf, len_tumors, new_dv = run(frame)
         csv_file = "test1.csv"
