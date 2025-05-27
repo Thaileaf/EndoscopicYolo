@@ -6,6 +6,22 @@ A software-based tool collection designed to enhance precision and efficiency in
 
 TAJ is a comprehensive platform that combines advanced computer vision techniques with an intuitive user interface to assist surgeons during endoscopic procedures. The system provides real-time tumor detection, depth estimation, and visual feedback to enhance surgical precision.
 
+## Authors
+
+- [Ali Fakhry](https://ieeexplore.ieee.org/author/331209448666136)
+- [Thaison Le](https://ieeexplore.ieee.org/author/261458134136324) 
+- [Junzhe Zhang](https://ieeexplore.ieee.org/author/37087468405)
+- [Rui Li](https://ieeexplore.ieee.org/author/325029450795700)
+
+## Publication
+
+Published in: 2024 International Symposium on Medical Robotics (ISMR)  
+Conference Date: June 3-5, 2024  
+Location: Atlanta, GA, USA  
+DOI: 10.1109/ISMR63436.2024.10585947
+
+Please view our work at https://ieeexplore.ieee.org/document/10585947.
+
 ## Features
 
 - **Real-time Tumor Detection**: Utilizes YOLOv5 object detection model with 95.5% precision and 85.3% recall
@@ -93,19 +109,6 @@ The TAJ platform integrates three main components:
 
 This project addresses the limited availability of software-based tools for computer-aided lung cancer surgery. By combining state-of-the-art deep learning techniques with practical surgical requirements, TAJ provides a data-driven solution for enhancing surgical procedures.
 
-## Authors
-
-- Ali Fakhry
-- Thaison Le - The Department of Computer Science, Flexible AI-enabled Mechatronics Systems Lab (FAMS), Tandon School of Engineering, New York University
-- Junzhe Zhang
-- Rui Li
-
-## Publication
-
-Published in: 2024 International Symposium on Medical Robotics (ISMR)  
-Conference Date: June 3-5, 2024  
-Location: Atlanta, GA, USA  
-DOI: 10.1109/ISMR63436.2024.10585947
 
 ## License
 
